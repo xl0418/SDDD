@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "event_matrix = function(n){\n  num = 0\n  for(i in 1:n)\n  {\n    num = num + choose(n,i)\n  }\n  E1 = matrix(0,nrow = n, ncol = num)\n  col = 0\n  for(i in 1:n){\n  index = combn(n,i)\n  for(j in 1:ncol(index)){\n  E1[index[,j], j+col] = 1\n  }\n  col = col + ncol(index)\n  }\n  # E1 = Matrix(E1,sparse = TRUE)\n  \n  \n return(E1)\n}",
+    "created" : 1507905581267.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "92368513",
+    "id" : "42313008",
+    "lastKnownWriteTime" : 1479901518,
+    "last_content_update" : 1479901518,
+    "path" : "~/Googlebox/Research/Project1/R_pro1/Final/event_matrix.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

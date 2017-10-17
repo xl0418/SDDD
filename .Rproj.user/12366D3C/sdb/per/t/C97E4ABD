@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Nindex = function(n){\nNtable_index = matrix(0,nrow= n, ncol =n)\nfor(i in 1:n){\n  for(j in 1:(n-i)){\n    Ntable_index[i,j+1] = choose(n-i,j)\n  }\n}\nNtable_index[,1] = 1\nreturn(Ntable_index)\n}",
+    "created" : 1507905586438.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3827629864",
+    "id" : "C97E4ABD",
+    "lastKnownWriteTime" : 1474456885,
+    "last_content_update" : 1474456885,
+    "path" : "~/Googlebox/Research/Project1/R_pro1/Final/Nindex.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

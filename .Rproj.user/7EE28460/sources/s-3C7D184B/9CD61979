@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508234081024.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3468073909",
+    "id" : "9CD61979",
+    "lastKnownWriteTime" : 1508234784,
+    "last_content_update" : 1508234784647,
+    "path" : "C:/Liang/Googlebox/Research/Project1/R_pro1/Final/SDDD/R/Simdata.R",
+    "project_path" : "R/Simdata.R",
+    "properties" : {
+        "cursorPosition" : "45,27",
+        "scrollLine" : "21"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
