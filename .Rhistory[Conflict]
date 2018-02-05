@@ -1,0 +1,78 @@
+load()
+load_all()
+load_all()
+setwd('~/Googlebox/Research/Project1/R_pro1/Final/SDDD')
+load_all()
+load()
+install.packages('devtools',dependencies=T)
+library('devtools')
+library('devtools')
+install.packages("DDD")
+library(SDDD)
+Nindex
+library(SDDD)
+library(SDDD)
+SimMdata()
+SimMdata <- function(n, parsN ,age=20,pars=c(0.8,0.3,20), seed = c(1:100), lambda_allo0=0.2, M0=0,rn=100,num,K_fix = 1,dirname){
+mainDir = dirname
+subDir = paste(n,"Modeltestgroup",age,"age",num,sep = "")
+dir.create(file.path(mainDir, subDir), showWarnings = FALSE)
+for (i in 1:rn){
+seed_fun = seed[i]
+result = MMM_sim(n = n, parsN=parsN,age=age,pars = pars, seed_fun = seed_fun,  lambda_allo0=lambda_allo0, M0=M0,K_fix = K_fix)
+file = paste(mainDir,n,"Modeltestgroup",age,"age",num,"/out",i,"sim.Rdata",sep = "")
+save(result,file = file)
+}
+}
+getwd()
+dirname = paste0("C:/Liang")
+library(SDDD)
+Simdata
+SimMdata
+dirname
+simpackage(dirname = dirname)
+library(SDDD)
+simpackage(dirname = dirname)
+library(SDDD)
+simpackage(dirname = dirname)
+library(SDDD)
+simpackage(dirname = dirname)
+mainDir = dirname
+mainDir
+library(SDDD)
+simpackage(dirname = dirname)
+plot(x/exp(x^2),-10,10)
+curve(x/exp(x^2),-10,10)
+curve(0.1*x/exp(x^2),-10,10)
+curve(0.1*x/exp(0.1*x^2),-10,10)
+curve(0.1*sign(x)/exp(0.1*x^2),-10,10)
+curve(0.1*sign(x)/exp(0.1*x^2),-10,10,type = s)
+curve(0.1*sign(x)/exp(0.1*x^2),-10,10,type = "s")
+library(ggplot)
+install.packages("ggplot")
+install.packages("ggplot2")
+library(ggplot2)
+eq <- function(x)
+ifelse( x>=0,0.1*x/exp(0.1*x^2))
+ifelse( x<0, -0.1*x/exp(0.1*x^2))
+ggplot(data.frame(x=c(-5,5)), aes(x)) +stat_function(fun=eq, geom="step")
+?stat_function
+library(ggplot2)
+eq <- function(x)
+ifelse( x>=0,0.1*x/exp(0.1*x^2))
+ifelse( x<0, -0.1*x/exp(0.1*x^2))
+ggplot(data.frame(x=c(-5,5)), aes(x)) +stat_function(fun=eq, geom="step",n = 101)
+?stat_function
+example(plot.stepfun)
+ggplot(data.frame(x=c(-5,5)), aes(x)) +stat_function(fun=eq, geom="step")
+eq <- function(x){
+ifelse( x>=0,0.1*x/exp(0.1*x^2))
+ifelse( x<0, -0.1*x/exp(0.1*x^2))
+}
+ggplot(data.frame(x=c(-5,5)), aes(x)) +stat_function(fun=eq, geom="step")
+library(ggplot2)
+eq <- function(x){
+ifelse( x>0,0.1*x/exp(0.1*x^2))
+ifelse( x<0, -0.1*x/exp(0.1*x^2))
+}
+ggplot(data.frame(x=c(-5,5)), aes(x)) +stat_function(fun=eq, geom="step")
